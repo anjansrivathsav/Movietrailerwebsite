@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# To create just by ("moviename","description","image_url","trailer_url")
 arjun_reddy = media.Movie("arjunreddy",
                           "This is a story about a medico and his"
                           "lovestory with a great attitude",
@@ -52,7 +53,9 @@ majnu = media.Movie("Majnu",
                     "trailer"
                     )
 
+# This is the list all the instances 
 movies = [arjun_reddy, paisa_vasool, raja_great, majnu, mahanu_bavudu,
           badri_dulhania]
 
+# This passes the list of arguments of movies
 fresh_tomatoes.open_movies_page(movies)
